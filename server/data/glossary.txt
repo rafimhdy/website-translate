@@ -1,0 +1,335 @@
+accordingly	sebagaimana mestinya
+accountability	akuntabilitas; pertanggungjawaban
+acknowledgement	pengakuan penyampaian
+acknowledgement of service	pengakuan penerimaan penyampaian
+act	undang-undang; perbuatan
+action	tindakan; perbuatan; perkara
+activity	kegiatan; aktivitas
+ad litem	ad litem
+addendum	adendum
+address	alamat; menyampaikan; mengatasi
+adherence	kepatuhan; ketaatan
+advance	uang muka
+affiliate	afiliasi
+agency	instansi; keagenan
+aggregat	keseluruhan; agregat
+aggregation	penggabungan
+amendment	amendemen; perubahan
+annex	aneks
+apendix	apendiks
+appropriate	sesuai; tepat
+area	area; bidang
+arm 	divisi
+arm's length	lazim dan wajar
+as the case maybe	sebagaimana relevan
+assignee	penerima pengalihan
+assignment	pengalihan; transfer
+associate	asosiasi
+at large	at large
+attachment	lampiran; sematan; sitaan
+auhtority	wewenang; kewenangan; otoritas
+authentication	otentikasi
+authorization	otorisasi; izin
+authorized capital	modal dasar
+award	putusan
+award creditor	pihak pemenang
+award on costs	putusan atas biaya
+back-up	mencadangkan (data)
+backup	rekam cadang; cadangan (data)
+benefit	keuntungan;  manfaat
+best interest	kepentingan terbaik
+best practices	praktik terbaik
+bid	penawaran; bid
+board of directors	direksi
+bona fide	bona fide
+breach	pelanggaran; kebocoran (data pribadi)
+breaches	kebocoran; pelanggaran
+broker	pialang
+bullion	emas batangan
+business day 	hari kerja
+by design	dengan sengaja
+call option	opsi beli; opsi call
+cash	tunai; uang tunai; kas
+charge	charge; pembebanan; biaya; beban
+chargee	chargee
+chargor	chargor
+chief executive officer	kepala pejabat eksekutif
+chief operating officer	kepala pejabat operasional
+client	klien; nasabah
+close-out	menutup
+codes of conduct 	kode etik
+collateral	agunan; jaminan
+collective	bersama-sama; kolektif
+company	perseroan (PT indo); perusahaan (PT asing, anak perusahaan, induk perusahaan)
+compensation	kompenssi; ganti rugi
+complaint	keluhan; pengaduan; komplain
+compromised	disusupi
+conflict	pertentangan
+consideration	pertimbangan harga; pertimbangan nilai
+conspiracy	persekongkolan
+consumables	barang habis pakai
+consumer	konsumen
+contact	kontak; menghubungi
+contact person	narahubung
+contain	menahan; memuat; berisi
+contribution	iuran; setoran; kontribusi
+control; controllership	pengendalian
+conveyance	penyampaian
+cookie	cookie
+corporation; corporate	korporasi; korporat
+cost	ongkos
+counterparty	pihak lawan
+covenant	janji; kesanggupan
+customer	nasabah; konsumen; pelanggan
+cyber	siber; maya
+damage	kerugian; ganti rugi
+data controller	pengendali data
+data processor	prosesor data
+database	pangkalan data
+de facto	de facto
+de jure	de jure
+debt securities	efek bersifat utang
+default	cedera janji
+defence	pembelaan
+defend	membela; mempertahankan
+defendant	tergugat
+delivery	penyerahan; pengiriman
+deployment	penempatan; penyebaran
+detail	rincian; detail
+disbursement	pengeluaran
+disclaim	menafikan
+disclaimer	penafian
+disclosure	pengungkapan; penyingkapan
+discrepancy 	perbedaan
+discretion	diskresi; kebijakan
+discretionary	diskresioner
+dispute	sengketa
+drag along	turut menarik (hak turut menarik)
+duty	tugas; kewajiban; bea
+effect	keberlakuan; dampak; efek
+employment	ketenagakerjaan; pekerjaan
+encryption	enkripsi
+encumbrance	pembebanan
+entered	dijatuhkan [putusan]
+entry code	kode entri
+equity securities	efek bersifat ekuitas
+error	kesalahan
+establish	mendirikan; menetapkan; membentuk
+excess margin posting	penempatan margin berlebih
+execution	penandatanganan; pelaksanaan; eksekusi; penandatanganan (dokumen)
+exercise	pelaksanaan; melaksanakan; menggunakan
+exhibit	ekshibit
+expenditure	pengeluaran
+explicit	eksplisit; jelas
+ferrous	ferrous
+fidelity	ketaatan
+fiduciary	fidusia
+final award	putusan akhir
+finance	keuangan
+financial	finansial
+financing	pembiayaan
+firm	firma
+flow	arus; alur
+form	bentuk; formulir
+gap	celah; kesenjangan
+garnishee	garnishee
+goodwill	nilai baik (goodwill)
+gross-up	penambahan karena pengurangan (umum); penambahan karena (pajak)
+guarantee	garansi; penanggungan
+haircut	potongan harga; potongan nilai
+hearing	sidang
+human error	kesalahan manusia
+hypothec; hypotheque	hipotek
+if applicable	jika berlaku
+implementation	pelaksanaan; implementasi; menerapkan
+in full force and effect	berlaku sepenuhnya; berlaku penuh dan efektif
+in such case	dalam keadaan tersebut
+In witness whereof	demikianlah
+incorporate	mendirikan (perusahaan); menggabungkan; menyertakan
+indemnification	penggantian kerugian
+indemnify	mengganti rugi
+indemnity	ganti rugi
+indulgence	kelonggaran; keleluasaan
+industrial action	aksi industrial
+injunctive relief 	perintah pengadilan 
+injure	merugikan
+inquiry	pertanyaan; penyelidikan
+insert	memasukkan; menyisipkan
+insolvency	kepailitan; insolvensi
+inter alia	inter alia; antara lain
+inter alios	inter alios; antara lain
+interest	kepentingan; bunga (bank/finance)
+introduction	pengantar; pendahuluan
+investigate	menginvestigasi; menyelidiki
+investigation	investigasi; penyelidikan
+investigator	penyelidik; peneliti
+invoice	menagih; tagihan; faktur (pajak)
+involve	melibatkan; melakukan
+irrevocably	secara tidak dapat ditarik kembali
+issued capital	modal ditempatkan
+justification	pembenaran; dasar kebenaran
+late	almarhum/almarhumah
+laycan	periode kedatangan kapal (laycan)
+legislation	legislasi; peraturan perundang-undangan
+legitimate interest	kepentingan yang sah
+liabilitiy/liabilities	liabilitas; tanggung jawab; kewajiban
+lien	lien; hak jaminan atas pembayaran
+localization	lokalisasi
+login	login
+maintain	mempertahankan; memelihara
+manager; administrator	pengelola; pengurus (kepailitan)
+material	relevan [gugatan/persidangan]
+milestone	tonggak pencapaian
+misrepresentation	misrepresentasi; pernyataan yang keliru
+mitigate	memitigasi
+monitoring	memantau; memonitor
+mortgage	hak tanggungan
+nature	sifat
+need-to-know basis	atas dasar keperluan untuk mengetahui
+netting	netting
+notice	pemberitahuan
+notification	pemberitahuan; pengumuman; notifikasi
+notwithstanding	terlepas dari
+objections	keberatan
+objective	tujuan; sasaran
+offer	penawaran; offer
+officer	pejabat; petugas
+operation	operasi; kegiatan; pekerjaan
+order	perintah; penetapan (pengadilan); pesanan
+order-routing	order-routing
+organize	mengelola; kelola; menyelenggarakan; mengorganisasi
+otherwise	dengan cara lain; jika tidak; lainnya; sebaliknya
+overview	ringkasan
+paid-up capital	modal disetor
+paper	kertas; naskah
+parent company	perusahaan induk
+particulars	keterangan rinci
+partner	mitra; rekan; sekutu; teman serikat
+partnership	persekutuan; kemitraan
+patronage	perlindungan; kesetiaan
+penalty	penalti; denda
+perform	melaksanakan; melakukan
+performance	pelaksanaan; kinerja
+person in charge	penanggung jawab
+personnel	personel
+plaintiff	penggugat
+player	pelaku
+pleaded	didalilkan
+porting	porting (data); transfer (data)
+power	kuasa; kekuasaan; daya (listrik); kewenangan
+pre-emption rights / preemptive rights	hak memesan terlebih dahulu
+prepayment	pelunasan lebih awal
+principal	pokok; utama; prinsipal
+print name	nama jelas
+procedural order	penetapan prosedural
+procure	menyebabkan
+procurement	pengadaan
+profiling	profiling; pembuatan profil
+property	kekayaan; kepemilikan; properti
+proprietary	kepemilikan; berhak milik; hak milik; dimiliki oleh seseorang
+provider	penyedia
+pseudonymization	pseudonimisasi; anonimisasi semu
+purge	membersihkan, mengapus, menyingkirkan
+purpose	maksud
+put option	opsi jual
+quotation	kuotasi
+rate	tarif; kurs; suku bunga
+read	membaca; menafsirkan
+real-time	waktu nyata
+reasonable	wajar; layak
+receiver	kurator (kepailitan); penerima
+record	catatan; rekaman
+recourse	hak untuk menuntut pemenuhan
+refer	merujuk
+reference	rujukan
+refrain	menahan diri; menghindari
+registry	panitera
+regular	biasa; teratur; berkala
+regulation	peraturan; regulasi
+relevant	relevan
+reliability	keandalan
+rely	mengandalkan
+remarks	catatan; keterangan; komentar
+remedy	upaya pemulihan; penyelesaian
+repayment	pelunasan
+representation	pernyataan
+representative	perwakilan
+repudiatory	penolakan
+request	permintaan; permohonan
+reserved matters	hal-hal yang dicadangkan
+resting order	resting order
+restore	memulihkan; mengembalikan
+restriction	pembatasan; larangan
+retain	mempertahankan; menyimpan
+retention	penyimpanan; retensi; penahanan
+review	meninjau; mengulas
+rights of first offer	hak penawaran pertama
+rights of first refusal	hak penolakan pertama
+roll	menggulirkan
+rules	aturan
+safeguard	menjaga; melindungi
+sale share	saham yang dijual
+schedule	lampiran; jadwal (waktu)
+scope	cakupan; ruang lingkup
+screening	penyaringan
+section	bagian
+secured obligations	kewajiban yang dijamin
+securities	efek; sekuritas; jaminan; keamanan
+segregation 	pemisahan
+service	penyampaian (proses); layanan; jasa
+severance	keterpisahan; pesangon (tenaga kerja)
+shortfall	kekurangan
+site	situs; tempat
+slot 	slot
+solicitor	pengacara
+specific	spesifik; khusus; tertentu
+spot	spot
+stakeholder	pemangku kepentingan
+statement of claim	gugatan
+statement of work	surat perintah kerja
+statute	statuta; undang-undang
+sub-processor	subprosesor
+submission	pengajuan; penyerahan
+submit	mengajukan; menyerahkan
+subpoena	panggilan pengadilan
+subscribe	mengambil bagian (saham); berlangganan
+subscription	pengambilanbagian
+subsidiary	anak perusahaan
+substantiate 	membuktikan
+successor	penerus
+summon	panggilan
+tag along	turut jual
+template	templat
+term	ketentuan; jangka waktu (waktu)
+term sheet	lembar ketentuan; term sheet
+termination	pengakhiran
+test	tes; uji; pengujian
+text	teks; naskah
+title	kepemilikan; alas hak; jabatan (posisi)
+to the extent	sepanjang
+tort	perbuatan melawan hukum
+trader	pedagang; trader
+transfer	transfer; pengalihan
+transferee	penerima transfer; penerima pengalihan
+transferred asset	aset yang ditransfer
+traveler	pelancong
+undertaking	kesanggupan; janji
+update	memperbarui (v); pembaruan (n)
+validity	validitas
+variation	perubahan; variasi
+vendor	vendor; penjual
+vessel nomination	nominasi kapal
+vetting	pemeriksaan
+vis-à-vis 	vis-à-vis; terhadap 
+waiver	pengesampingan
+warant	waran; menjamin
+waranty	jaminan
+wholesale	grosir; perdagangan besar
+without prejudice	tanpa mengurangi
+writ	surat perintah
+writ of summon	surat perintah panggilan
+appearer	penghadap
+circular resolution	keputusan sirkuler
+adopt (a resolution)	mengambil (suatu keputusan)
+provided that	dengan ketentuan bahwa
+agio shares	saham premium
