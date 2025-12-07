@@ -185,17 +185,33 @@ exports.translateText = async (req, res) => {
       
 RULES:
 1. **Legal Context**: Use formal legal terminology suitable for official documents.
-2. **Glossary Strictness**: You MUST use the provided glossary terms.
-   - If a glossary term has MULTIPLE options separated by semicolons (e.g. "term -> opt1; opt2"), you MUST SELECT the SINGLE most appropriate option based on the context.
-   - Do NOT output the full list of options (e.g. "opt1; opt2") unless the context is ambiguous or requires listing them.
+
+2. **Glossary Usage - CONTEXT MATTERS**:
+   - You MUST use the provided glossary terms.
+   - If a glossary term has MULTIPLE options separated by semicolons (e.g. "Client -> Klien; Pelanggan; Nasabah"), you MUST SELECT the SINGLE most appropriate option based on the CONTEXT and NUANCE.
+   - DIFFERENT source terms (e.g. "Client" vs "Customer") should usually translate to DIFFERENT target terms to preserve semantic distinction.
+   - Example: If "Client -> Klien; Pelanggan" and "Customer -> Pelanggan; Konsumen", then:
+     * "Client" in legal/business context → "Klien" (preferred)
+     * "Customer" in general context → "Pelanggan" (preferred)
+     * DO NOT use the same translation for both unless the context truly demands it.
+   - Consider the ROLE, FORMALITY, and LEGAL IMPLICATIONS of each term.
+
 3. **Capitalization**: MATCH the capitalization of the source term EXACTLY.
-   - If the source term is Title Case (e.g. "Writ"), the ENTIRE translated term MUST be Title Case (e.g. "Surat Perintah"), capitalizing the first letter of EACH word.
-   - "Writ" -> "Surat Perintah" (CORRECT)
-   - "Writ" -> "Surat perintah" (WRONG)
-   - "writ" -> "surat perintah" (CORRECT)
+   - If source is ALL CAPS → translation ALL CAPS
+   - If source is Title Case (first letter uppercase) → translation Title Case for EACH word
+   - If source is lowercase → translation MUST be lowercase
+   - Examples:
+     * "CLIENT" → "KLIEN" (all caps)
+     * "Client" → "Klien" (title case)
+     * "client" → "klien" (lowercase)
+   - IMPORTANT: "client" (lowercase) should NEVER become "Pelanggan" (title case). It must be "pelanggan" (lowercase).
+
 4. **Formatting**: PRESERVE all original formatting, including newlines, bullet points, and spacing. Do NOT merge lines.
+
 5. **Pluralization**: Respect singular/plural forms based on context.
-6. **Consistency**: Be consistent throughout the text.
+
+6. **Consistency with Variation**: Be consistent in translating identical terms in identical contexts, but use appropriate variations when context differs or when distinguishing between similar but distinct source terms.
+
 7. Return ONLY the translated text. No explanations.`;
 
       let userPrompt = `Text to translate:\n"${text}"`;
@@ -230,21 +246,52 @@ RULES:
         });
 
         sortedTerms.forEach((term) => {
-          // Get the first translation option
-          let translation = term.translation.includes(";")
-            ? term.translation.split(";")[0].trim()
-            : term.translation;
+          // Get all translation options (handle semicolon-separated list)
+          const translations = term.translation
+            .split(";")
+            .map((t) => t.trim())
+            .filter((t) => t.length > 0);
 
-          // Create regex for case-insensitive whole word match
-          const escapedTranslation = translation.replace(
-            /[.*+?^${}()|[\]\\]/g,
-            "\\$&"
-          );
-          const regex = new RegExp(`\\b(${escapedTranslation})\\b`, "gi");
+          // Try to match each translation variant
+          translations.forEach((translation) => {
+            // Skip if already bold
+            if (translatedText.includes(`**${translation}**`)) {
+              return;
+            }
 
-          // Replace with bold version
-          translatedText = translatedText.replace(regex, "**$1**");
+            // Escape special regex characters
+            const escapedTranslation = translation.replace(
+              /[.*+?^${}()|[\]\\]/g,
+              "\\$&"
+            );
+
+            // Try multiple matching strategies:
+            // 1. Exact word boundary match (strict)
+            let regex = new RegExp(`\\b(${escapedTranslation})\\b`, "gi");
+            let matched = false;
+
+            if (regex.test(translatedText)) {
+              translatedText = translatedText.replace(regex, (match) => {
+                matched = true;
+                return `**${match}**`;
+              });
+            }
+
+            // 2. If no match, try case-insensitive without word boundaries (for compound terms)
+            if (!matched) {
+              const flexRegex = new RegExp(`(${escapedTranslation})`, "gi");
+              if (flexRegex.test(translatedText)) {
+                translatedText = translatedText.replace(flexRegex, (match) => {
+                  // Don't bold if it's already inside bold markers
+                  return `**${match}**`;
+                });
+              }
+            }
+          });
         });
+
+        // Clean up double-bold artifacts (e.g., ****term****)
+        translatedText = translatedText.replace(/\*{4,}/g, "**");
       }
 
       return res.json({
