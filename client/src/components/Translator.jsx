@@ -93,8 +93,16 @@ const Translator = () => {
   // Helper function to render markdown bold as HTML
   const renderWithBold = (text) => {
     if (!text) return "";
-    // Replace **text** with <strong>text</strong>
-    return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    // Replace **text** with colored strong tags
+    // Blue (#1cb0f6) for Title Case terms, Green (#58cc02) for lowercase terms
+    return text.replace(/\*\*(.*?)\*\*/g, (match, term) => {
+      // Check if term is Title Case (first letter uppercase)
+      const isTitle =
+        term.charAt(0) === term.charAt(0).toUpperCase() &&
+        term.charAt(0) !== term.charAt(0).toLowerCase();
+      const color = isTitle ? "#1cb0f6" : "#58cc02"; // Blue for Title Case, Green for lowercase
+      return `<strong style="color: ${color}; font-weight: 700;">${term}</strong>`;
+    });
   };
 
   // Copy to clipboard function

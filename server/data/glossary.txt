@@ -333,3 +333,8 @@ circular resolution	keputusan sirkuler
 adopt (a resolution)	mengambil (suatu keputusan)
 provided that	dengan ketentuan bahwa
 agio shares	saham premium
+window	periode; masa; jangka waktu; jendela
+approval	persetujuan; pengesahan
+project plan	rencana proyek
+incentive	insentif
+notice	pemberitahuan; pemberitahuan tertulis
